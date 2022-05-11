@@ -1,0 +1,272 @@
+main {
+  margin: 0 10%;
+}
+
+.nav {
+  border-bottom: 1px solid gray;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.nav img {
+  width: 10%;
+  height: 10%;
+}
+
+.logo__second {
+  float: right;
+}
+
+.par__iceland {
+  text-align: center;
+}
+
+.todos__iceland {
+  border: 2px solid black;
+  width: 100%;
+  height: 100%;
+  background-color: lightpink;
+  color: white;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+figure > img {
+  width: 100%;
+  height: 200px;
+  border: 3px solid purple;
+}
+
+.img__1 {
+  width: 40%;
+  float: left;
+}
+
+.par__1 {
+  float: right;
+  width: 40%;
+  padding: 30px;
+  margin-top: 0%;
+}
+
+.ml {
+  margin-left: 74px;
+}
+
+.event__link {
+  color: blue;
+}
+
+.hr {
+  border: 1px solid gray;
+}
+
+.m {
+  margin: 0% 0;
+}
+
+.ml {
+  margin-left: 45px;
+}
+
+.mb {
+  margin-bottom: 0%;
+}
+
+.table {
+  border: 3px solid black;
+}
+
+.background__tr {
+  background-color: lightgreen;
+  font-weight: 900;
+}
+
+.background__td {
+  background-color: lightpink;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+}
+
+.contact__subdiv {
+  display: flex;
+  align-items: center;
+  margin: 0 0% 14px 0;
+}
+
+.contact__subdiv > img {
+  width: 5%;
+  margin-right: 20px;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: center;
+}
+
+.nav__links > li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+.border__vertical {
+  border-right: 1px solid gray;
+  padding-right: 5px;
+}
+
+.hr__fade {
+  border: 1px solid rgba(128, 128, 128, 0.214);
+}
+
+.footer {
+  text-align: center;
+}
+
+/* Hiking page */
+.hiking__section {
+  display: flex;
+  margin: 30px 50px;
+}
+
+.hiking__section img {
+  width: 35%;
+  height: auto;
+  border: 2px solid black;
+}
+.border {
+  border: 2px solid #000000;
+  margin: 0px 5px;
+}
+.middle__par {
+  border: 6px solid lightblue;
+  margin: auto;
+  background-color: rgba(128, 128, 128, 0.471);
+  text-align: center;
+  padding: 10px;
+}
+
+.middle__par1 {
+  border: 6px solid lightblue;
+  margin: auto;
+  background-color: rgba(128, 128, 128, 0.471);
+  text-align: start;
+  padding: 50px;
+}
+
+.middle__par p {
+  width: 100%;
+  height: 100%;
+}
+
+.par__hiking {
+  margin: 30px 0;
+}
+
+.span__northern {
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+/* contact page */
+.iframe {
+  border: 5px solid rgba(136, 255, 0, 0.693);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.contact__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 80px 0;
+}
+
+.intouch {
+  padding-left: 30px;
+  height: 50vh;
+  background-color: rgba(128, 128, 128, 0.1);
+  border-radius: 50px 0 0 50px;
+}
+
+.intouch span {
+  margin-right: 10px;
+}
+
+.intouch img {
+  width: 4%;
+  height: 8%;
+}
+
+.contact__par {
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+.form {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  border-radius: 9px;
+  width: 50%;
+}
+
+.form h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.form form {
+  display: inline-flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.form input {
+  margin-bottom: 20px;
+  border: 1px solid #aaff00;
+  border-radius: 3px;
+  padding: 10px 2px;
+}
+
+.form textarea {
+  border: 1px solid #aaff00;
+  border-radius: 4px;
+  padding: 10px 2px;
+}
+
+.form button {
+  margin-top: 10px;
+  background-color: #aaff004e;
+  color: #000000;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.form button:hover {
+  margin-top: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
